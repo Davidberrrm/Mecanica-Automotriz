@@ -1,0 +1,378 @@
+<html>
+<head>
+    <title>Portal de Mecánica Automotriz</title>
+    
+    <link rel="icon" href="icono.png" type="image/x-icon">
+
+    <style>
+        body {
+            background-color: LightGrey; 
+            font-family: Verdana, sans-serif;
+            color: Black; 
+            font-size: 18px;
+            margin-left: 340px;
+            margin-right: 40px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-family: Impact, sans-serif;
+            color: DarkRed; 
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: MidnightBlue; 
+            border-left: 10px solid DarkRed;
+            padding: 10px 15px;
+            margin-top: 40px;
+            background-color: AliceBlue;
+        }
+
+        h3 {
+            color: DarkSlateGrey;
+            border-bottom: 2px solid SlateGrey;
+            margin-top: 25px;
+        }
+
+        .indice-lateral {
+            position: fixed;
+            top: 40px;
+            left: 20px;
+            width: 280px;
+            background-color: Silver;
+            border: 2px solid Black;
+            padding: 20px;
+            box-sizing: border-box;
+            height: calc(100vh - 80px);
+            overflow-y: auto;
+        }
+
+        .indice-lateral h3 {
+            border-bottom: 2px solid Black;
+            text-align: center;
+            color: Black;
+        }
+
+        .contenedor-imagen {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        table {
+            background-color: White;
+            width: 100%;
+            border-collapse: collapse;
+            border: 3px solid Black;
+            margin: 20px 0;
+        }
+
+        th {
+            background-color: DarkSlateGrey;
+            color: White;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid Silver;
+        }
+
+        a {
+            color: Red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: FireBrick;
+        }
+
+        marquee {
+            background-color: Black;
+            color: Yellow; 
+            font-weight: bold;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+
+        .cuadro-info {
+            background-color: White;
+            border: 1px solid Grey;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .subir-link {
+            display: block;
+            text-align: right;
+            font-size: 14px;
+            color: DimGrey;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a name="top"></a>
+
+    <marquee behavior="scroll" direction="left" scrollamount="7">
+        >>> BIENVENIDOS AL PORTAL TÉCNICO: Mecánica, Diagnóstico y Futuro Automotriz 2026 | David Merida Bermudez <<<
+    </marquee>
+
+    <h1>Ingeniería y Mecánica Automotriz</h1>
+
+    <div class="indice-lateral">
+        <h3>ÍNDICE</h3>
+        <ul style="list-style-type: '⚙️'; padding-left: 20px; font-size: 15px;">
+            <li><a href="#intro">1. Introducción</a></li><br>
+            <li><a href="#que-es">2. ¿Qué es?</a></li><br>
+            <li><a href="#historia">3. Historia</a></li><br>
+            <li><a href="#sistemas">4. Sistemas principales</a></li><br>
+            <li><a href="#electronica">5. Electrónica</a></li><br>
+            <li><a href="#mantenimiento">6. Mantenimiento</a></li><br>
+            <li><a href="#diagnostico">7. Diagnóstico OBD</a></li><br>
+            <li><a href="#herramientas">8. Herramientas</a></li><br>
+            <li><a href="#motores">9. Tipos de Motores</a></li><br>
+            <li><a href="#fallas">10. Fallas comunes</a></li><br>
+            <li><a href="#futuro">11. Importancia y Futuro</a></li><br>
+            <li><a href="#contacto">12. Contacto</a></li><br>
+            <li><a href="#recursos">13. Recursos</a></li>
+        </ul>
+    </div>
+
+    <div class="contenedor-imagen">
+        <img src="https://www.solverdca.com.ar/storage/2019/04/motor.e3.jpg" alt="Motor de combustión interna" width="500" style="border: 5px solid Black; margin: 20px 0;">
+        <p><i>"Garantizando seguridad, eficiencia y potencia en cada kilómetro."</i></p>
+    </div>
+
+    <hr color="DarkRed" size="4">
+
+<a name="intro"></a>
+    <h2>1. Introducción</h2>
+    <p>
+Esta página web está diseñada para jóvenes y todo tipo de personas interesadas en aprender acerca de la mecánica automotriz. Su propósito es brindar información útil y conocimientos básicos sobre el funcionamiento, mantenimiento y reparación de los vehículos.
+
+Aprender sobre mecánica automotriz puede ser de gran utilidad en la vida diaria, ya que permite comprender mejor cómo funciona un automóvil, identificar posibles fallas y realizar mantenimiento preventivo. Además, este conocimiento puede servir como base para quienes deseen estudiar una carrera o especializarse en áreas relacionadas con la industria automotriz.
+
+A través de esta página se busca facilitar el aprendizaje de manera clara, accesible e interesante para cualquier persona que quiera adentrarse en este campo.
+    </p>
+<a href="#top" class="subir-link">[ ▲ Volver arriba ]</a>
+
+
+
+    <a name="que-es"></a>
+    <h2>2. ¿Qué es la mecánica automotriz?</h2>
+    <p>
+        La mecánica automotriz es la rama técnica que estudia el funcionamiento, mantenimiento, diagnóstico y reparación de los vehículos automotores. Combina conocimientos de física, electrónica, termodinámica, hidráulica y sistemas computarizados para entender cómo operan los automóviles.
+    </p>
+    <h3>Su objetivo es garantizar:</h3>
+    <ul>
+        <li>El funcionamiento correcto del vehículo.</li>
+        <li>La seguridad del conductor y pasajeros.</li>
+        <li>La eficiencia del motor.</li>
+        <li>La reducción de fallas mecánicas.</li>
+        <li>El mantenimiento preventivo y correctivo.</li>
+    </ul>
+    <a href="#top" class="subir-link">[ ▲ Volver arriba ]</a>
+
+    <a name="historia"></a>
+    <h2>3. Historia de la mecánica automotriz</h2>
+    <p>La mecánica automotriz comenzó con la invención del automóvil de combustión interna.</p>
+    <div class="cuadro-info">
+        <p><b>1. Motores de combustión (siglo XIX):</b> Desarrollo del motor de gasolina. Primeros vehículos autopropulsados.</p>
+        <p><b>2. Producción en masa:</b> Henry Ford revolucionó la industria con la producción en cadena. Nace la necesidad de técnicos mecánicos.</p>
+        <p><b>3. Electrónica automotriz:</b> Aparición de sensores. Inyección electrónica. Computadoras en vehículos.</p>
+        <p><b>4. Mecánica moderna:</b> Vehículos híbridos. Autos eléctricos. Diagnóstico por computadora e IA aplicada.</p>
+    </div>
+    <a href="#top" class="subir-link">[ ▲ Volver arriba ]</a>
+
+    <a name="sistemas"></a>
+    <h2>4. Sistemas principales de un automóvil</h2>
+    
+    <h3>A) El Motor</h3>
+    <p>Es el corazón del vehículo. Convierte energía química del combustible en energía mecánica.</p>
+    <p><b>Partes principales:</b> Pistones, Biela, Cigüeñal, Árbol de levas, Válvulas, Cilindros y Bujías.</p>
+
+    <h3>B) Funcionamiento del motor (4 tiempos)</h3>
+    <ol>
+        <li><b>Admisión:</b> Entra mezcla aire-combustible.</li>
+        <li><b>Compresión:</b> El pistón comprime la mezcla.</li>
+        <li><b>Explosión:</b> La bujía genera chispa y produce potencia.</li>
+        <li><b>Escape:</b> Se expulsan gases quemados.</li>
+    </ol>
+
+    <h3>C) Otros Sistemas Vitales</h3>
+    <table>
+        <tr>
+            <th>Sistema</th>
+            <th>Función / Tipos</th>
+        </tr>
+        <tr>
+            <td><b>Transmisión</b></td>
+            <td>Lleva potencia a las ruedas (Manual, Automática, CVT).</td>
+        </tr>
+        <tr>
+            <td><b>Frenos</b></td>
+            <td>Detiene el vehículo (Disco, Tambor, ABS para evitar bloqueos).</td>
+        </tr>
+        <tr>
+            <td><b>Suspensión</b></td>
+            <td>Absorbe impactos (Amortiguadores, Resortes, Brazos de control).</td>
+        </tr>
+        <tr>
+            <td><b>Dirección</b></td>
+            <td>Controla el movimiento (Mecánica, Hidráulica, Eléctrica EPS).</td>
+        </tr>
+        <tr>
+            <td><b>Eléctrico</b></td>
+            <td>Energía (Batería, Alternador, Motor de arranque, Fusibles).</td>
+        </tr>
+    </table>
+    <a href="#top" class="subir-link">[ ▲ Volver arriba ]</a>
+
+    <a name="electronica"></a>
+    <h2>5. Sistemas electrónicos modernos</h2>
+    <p>Los autos modernos tienen computadoras llamadas <b>ECU (Unidad de Control Electrónico)</b> que controlan la inyección, encendido y emisiones.</p>
+    <h3>Sensores fundamentales:</h3>
+    <ul>
+        <li><b>Sensor MAF:</b> Mide flujo de aire.</li>
+        <li><b>Sensor de Oxígeno:</b> Controla mezcla combustible.</li>
+        <li><b>Sensor CKP:</b> Detecta posición del cigüeñal.</li>
+        <li><b>Sensor TPS:</b> Detecta apertura del acelerador.</li>
+    </ul>
+    <a href="#top" class="subir-link">[ ▲ Volver arriba ]</a>
+
+    <a name="mantenimiento"></a>
+    <h2>6. Mantenimiento Automotriz</h2>
+    <h3>Preventivo (Evita fallas):</h3>
+    <p>Cambio de aceite, filtros, revisión de frenos, alineación y balanceo.</p>
+    <h3>Correctivo (Reparación tras falla):</h3>
+    <p>Cambio de clutch, reparación de motor, sustitución de sensores.</p>
+    <center>
+    <img src="https://www.quicklane.com/content/dam/quicklane-global/mx/images/blog/home/que-tipos-servicio-mecanico-existen/quick-lane-quicklane-mexico-servicio-automotriz-tipos-menor-mayor.jpg" width="300" height="300">
+    </center>
+    <a href="#top" class="subir-link">[ ▲ Volver arriba ]</a>
+
+    <a name="diagnostico"></a>
+    <h2>7. Diagnóstico Automotriz (OBD-II)</h2>
+    <p>Se utilizan escáneres OBD-II para detectar códigos de falla rápidamente:</p>
+    <div class="cuadro-info" style="border-left: 10px solid Red;">
+        <p><b>P0300:</b> Fallo de encendido detectado.</p>
+        <p><b>P0420:</b> Problema en la eficiencia del catalizador.</p>
+    </div>
+    <a href="#top" class="subir-link">[ ▲ Volver arriba ]</a>
+
+<a name="herramientas"></a>
+    <h2>8. Herramientas Recomendadas</h2>
+    <p>Haz clic en cada herramienta para ver opciones de compra y especificaciones técnicas:</p>
+    <ul>
+        <li><b>Manuales:</b> 
+            <a href="https://www.amazon.com.mx/s?k=llaves+combinadas+mecanica" target="_blank">Llaves</a>, 
+            <a href="https://www.amazon.com.mx/s?k=juego+de+dados+y+matraca" target="_blank">Dados</a>, 
+            <a href="https://www.amazon.com.mx/s?k=matraca+mecanica" target="_blank">Matracas</a>, 
+            <a href="https://www.amazon.com.mx/s?k=torquimetro+para+auto" target="_blank">Torquímetro</a>.
+        </li><br>
+        <li><b>Diagnóstico:</b> 
+            <a href="https://www.amazon.com.mx/s?k=escanner+automotriz+obd2" target="_blank">Escáner automotriz</a>, 
+            <a href="https://www.amazon.com.mx/s?k=multimetro+automotriz" target="_blank">Multímetro</a>, 
+            <a href="https://www.amazon.com.mx/s?k=osciloscopio+automotriz" target="_blank">Osciloscopio</a>.
+        </li><br>
+        <li><b>Especializadas:</b> 
+            <a href="https://www.amazon.com.mx/s?k=gato+hidraulico+para+auto" target="_blank">Gato hidráulico</a>, 
+            <a href="https://www.amazon.com.mx/s?k=compresor+de+aire+portatil" target="_blank">Compresor</a>, 
+            <a href="https://www.amazon.com.mx/s?k=prensa+hidraulica" target="_blank">Prensa</a>, 
+            <a href="https://www.amazon.com.mx/s?k=extractores+de+baleros" target="_blank">Extractores</a>.
+        </li>
+    </ul>
+    <p><small><i>* Nota: Los enlaces anteriores dirigen a plataformas de comercio electrónico externas.</i></small></p>
+    <a href="#top" class="subir-link">[ ▲ Volver arriba ]</a>
+
+    <a name="motores"></a>
+    <h2>9. Tipos de motores</h2>
+    <ul>
+        <li><b>Gasolina:</b> Más comunes y ligeros.</li>
+        <li><b>Diésel:</b> Mayor torque y fuerza.</li>
+        <li><b>Híbridos:</b> Combinan electricidad y combustible.</li>
+        <li><b>Eléctricos:</b> Funcionan 100% con baterías.</li>
+    </ul>
+    <center>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvFxgt6rfDb_nhZCwtL2vXtXH35fM8__vBQ&s" width="300" height="300">
+    </center>
+    <a href="#top" class="subir-link">[ ▲ Volver arriba ]</a>
+
+    <a name="fallas"></a>
+    <h2>10. Fallas comunes en un automóvil</h2>
+    <p><b>Sobrecalentamiento:</b> Por fuga de refrigerante, termostato dañado o radiador obstruido.</p>
+    <p><b>El auto no arranca:</b> Batería descargada, motor de arranque defectuoso o alternador dañado.</p>
+    <p><b>Vibraciones:</b> Desbalanceo de llantas o problemas de suspensión.</p>
+    <a href="#top" class="subir-link">[ ▲ Volver arriba ]</a>
+
+    <a name="futuro"></a>
+    <h2>11. Importancia y Futuro de la Mecánica</h2>
+    <p>Es vital porque previene accidentes, reduce costos, aumenta la vida útil del vehículo y mejora la eficiencia ambiental.</p>
+    <h3>Evolución de la profesión:</h3>
+    <ul>
+        <li><b>Vehículos eléctricos:</b> Más electrónica, menos piezas móviles.</li>
+        <li><b>IA y Diagnóstico:</b> Detección predictiva de fallas mediante software.</li>
+        <li><b>Autos autónomos:</b> Una nueva frontera para los técnicos.</li>
+    </ul>
+    
+    <div class="cuadro-info" style="background-color: DarkSlateGrey; color: White; border: 2px solid Black;">
+        <b>Conclusión:</b> La mecánica automotriz es fundamental para la movilidad moderna. Ha evolucionado de lo puramente mecánico a lo computarizado, convirtiéndose en una profesión de alta tecnología.
+    </div>
+    <a href="#top" class="subir-link">[ ▲ Volver arriba ]</a>
+
+    <br><br>
+
+    <a name="contacto"></a>
+    <div class="cuadro-info" style="border-top: 5px solid DarkRed; text-align: center; background-color: WhiteSmoke;">
+    <h3 style="border-bottom: none; margin-top: 0;">¿Tienes dudas técnicas?</h3>
+    <p>Puedes contactarme directamente para asesorías sobre Mecánica Automotriz:</p>
+    <span style="font-size: 20px;">📧</span> 
+    <a href="mailto:laprovidencia.2320812032@cobaeh.edu.mx" style="font-size: 18px; color: MidnightBlue;">
+        laprovidencia.2320812032@cobaeh.edu.mx
+    </a>
+</div>
+
+    <br><br>
+
+    <a name="recursos"></a>
+    <h2>13. Recursos y articulos de utilidad</h2>
+    <p>Si deseas apoyarte en más contenido como este y ampliar tus conocimientos sobre mecánica automotriz, te recomendamos los siguientes recursos, donde podrás aprender aún más mediante información, guías, manuales y material especializado.</P>
+    <ul>
+       <li><a href="https://www.howacarworks.com" target="_blank">How a car works</a>
+    <p><b>Excelente para aprender cómo funciona un auto con diagramas, animaciones y explicaciones claras. Muy bueno para motor, transmisión, frenos y suspensión.</b></p></li>
+       <li><a href="https://www.autoeducation.com" target="_blank">Auto education</a>
+    <p><b>Tiene explicaciones sencillas sobre sistemas automotrices, mantenimiento y reparación. Muy útil para investigación básica.</b></p></li>
+       <li><a href="https://www.yc.edu/v6/library/" target="_blank">Yavapai college</a>
+       <p><b>Sirve para diagnósticos, guías de reparación y mantenimiento. Muy útil si vas a incluir fallas comunes.</b></p></li>
+    </ul>
+
+    <br><br>
+
+    <hr color="DarkRed" size="3">
+    <center>
+        <p>
+            <font face="Courier New, monospace" size="2">
+                <b>Fecha de creación:</b> 30/03/2026 <br>
+                <b>Última actualización:</b> 16/04/2026 <br>
+                <br>
+                Portal de Ingeniería Automotriz | © 2026 <br>
+                <b>Elaborado por:</b> David Mérida Bermudez <br>
+                <b>Grupo:</b> 6101 <br><br>
+                <a href="#top">▲ Volver al inicio ▲</a>
+            </font>
+        </p>
+    </center>
+
+</body>
+</html>
